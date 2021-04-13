@@ -61,7 +61,7 @@ class MessagesBoxController {
                     <div class="user-name">${message.user_name}</div>
                     <div class="time-label">${datetime}</div>
                 </div>
-                <div class="message-content col-md-6">${message.text}</div>
+                <div class="message-content col-md-6 col-sm-6 col-xs-6">${message.text}</div>
             </div>
         `);
     }

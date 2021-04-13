@@ -15,12 +15,13 @@ body,
 body div.wrapper-container,
 body div.wrapper-container div.left-menu {
     height: 100%;
-    padding: 0;
 }
 
 div.row.wrapper-container {
     border-right: 1px solid #888;
     border-left: 1px solid #888;
+    padding: 0;
+    margin: 0;
 }
 
 div.left-menu {
@@ -45,7 +46,7 @@ div.right-content nav {
 /* 右侧输入框 */
 div.input-container {
     position: fixed;
-    width: calc(50% - 17px);
+    width: calc(75% - 3px);
     bottom: 0;
     padding-right: 0;
     padding-top: 12px;
